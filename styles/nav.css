@@ -1,5 +1,5 @@
-nav ul {
-    display: flex;
+nav > ul {
+    display: flex;      /* here > means immediate child */
 }
 nav li {
     list-style: none;
@@ -12,4 +12,20 @@ nav li:hover {
 nav li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+nav > ul > li:hover > ul {      /* here > means immediate child */
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    background-color: bisque;
+    position: absolute;
+    padding: 0;
+}
+
+.dropdown li {
+    margin: 0;
+    padding: 0 20px;
 }
