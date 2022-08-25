@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <style>
+        header {
+            border: 5px solid plum;
+            margin-bottom: 7px;
+        }
+        main {
+            border: 5px solid rebeccapurple;
+            margin-bottom: 7px;
+        }
+        .blogs {
+            border: 3px dotted palevioletred;
+            margin: 5px;
+        }
+        .photo-album {
+            border: 3px dotted powderblue;
+            margin: 5px;
+        }
+        footer {
+            border: 5px solid palegreen;
+        }
+        .align-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="align-center">Header</h1>
+        <nav>
+            <a href="">link-1</a>
+            <a href="">link-2</a>
+            <a href="">link-3</a>
+            <a href="">link-4</a>
+            <a href="">link-5</a>
+            <a href="">link-6</a>
+        </nav>
+        <h1>Welcome to my Website</h1>
+        <h2>Enjoy my blog</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta, expedita, debitis nisi incidunt obcaecati temporibus voluptas a doloremque et accusantium itaque ea quis? Quisquam dignissimos modi dolores soluta tenetur!
+        </p>
+    </header>
+
+    <main>
+        <h1 class="align-center">Main (Sections- Blogs, Photo Albums)</h1>
+        <section class="blogs">
+            <h2>Read my blogs</h2>
+    
+            <!-- Shortcut: article.blog*4>h3{my blog -$}+p>lorem30 -->
+            <article class="blog">
+                <h3>my blog -1</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laborum praesentium commodi voluptate ipsam impedit atque nemo voluptates aliquid repellat optio quibusdam soluta harum, quas dolor fuga quos eos recusandae.
+                </p>
+            </article>
+            <article class="blog">
+                <h3>my blog -2</h3>
+                <p>
+                    Consequatur necessitatibus debitis dignissimos totam quibusdam laudantium quas illum. Perspiciatis eum pariatur unde nostrum obcaecati ad aspernatur consequuntur provident recusandae assumenda nisi reprehenderit ut totam quam, fugit numquam odio porro!
+                </p>
+            </article>
+    
+            <article class="blog">
+                <h3>my blog -3</h3>
+                <p>
+                    Minus vero quis esse dolore, atque dignissimos eos quasi nihil quam, tempore nemo ea corrupti nostrum maxime ducimus eum unde iste cupiditate doloribus odit commodi, fuga explicabo? Nam, mollitia perferendis!
+                </p>
+            </article>
+            <article class="blog">
+                <h3>my blog -4</h3>
+                <p>
+                    Ut exercitationem expedita inventore modi, fuga voluptas voluptatibus eius, itaque molestiae mollitia reprehenderit iusto similique, maiores nisi voluptates ex recusandae! Fuga placeat asperiores, officia fugit reiciendis enim sint consequuntur ut!
+                </p>
+            </article>
+        </section>
+    
+        <section class="photo-album">
+            <h3>Photo Album</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, est repudiandae. Voluptatem eaque ipsam quae quas beatae veritatis suscipit sequi. Vel vitae tenetur libero aliquam delectus fuga soluta, veniam quas?
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <h3 class="align-center">Footer</h3>
+        <p class="align-center">© copyright 2029</p>
+    </footer>
+</body>
+</html>
